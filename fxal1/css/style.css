@@ -1,0 +1,108 @@
+﻿*{ margin:0; padding:0;}
+body{ font-family:"微软雅黑"; font-weight:normal;}
+a{ text-decoration:none; color:#333;}
+ul,li,ol{ list-style-type:none;}
+img{border:none; vertical-align:top;  }
+textarea{ resize:none; overflow:auto}
+html {	font-size:100px;	font-size:calc(100vw/3.2);}
+@media all and (max-width: 320px) {
+	html {
+		font-size: 100px;
+	}
+}
+@media all and (min-width: 640px) {
+	html { 
+		font-size: 200px;
+	}
+}
+/*.LR_Mini_ICON img{display: block;}
+#LR-BUBBLE-NAME{display: inherit!important;}*/
+.clear{clear: both;}
+.main{max-width: 640px; min-width: 320px; width: 100%; margin: auto;  overflow: hidden;}
+.banner{width: 100%; height: auto!important; overflow: hidden;}
+.banner img{width: 100%; display: block;}
+.Module1{width: 100%;  overflow: hidden; }
+.tit_01{position: relative;}
+.tit_01 p{width: 100%; text-align: center; position: absolute; top: 1.15rem; font-size: 0.12rem; font-weight: bold; color: #222222;}
+.tit_01 img {width: 100%; display: block; }
+.Module1_1{width:100%; margin-top: 0.16rem; overflow: hidden;}
+.Module1_1 img{width: 100%; display: block;}
+.Module1_1 span{font-size: 0.075rem; color: #222; text-align: center; line-height: 0.12rem; display: block;}
+.Module1_1 ul{width: 2.825rem; margin: auto; margin-top: 0.15rem; overflow: hidden;}
+.Module1_1 ul li{width: 1.4rem; float: left; margin-left: 0.025rem; overflow: hidden;}
+
+.Module2{width: 100%;  background: #fbb805; margin-top: -0.425rem; padding-bottom: 0.65rem; }
+.Module2 img{display: block; width: 100%;}
+.Module2_1{padding-top: 0.425rem;  }
+.Module2_1 span{ font-size: 0.075rem; color: #222222; font-weight: bold; line-height: 0.15rem; padding: 0.15rem 0 0 0.235rem; display: block;}
+.tx{width: 100%; margin-top: 0.12rem; position: relative;}
+.tx img{display: block; width: 100%;}
+.tx_txt{width: 100%;  position: absolute; top: 0;}
+.tx_txt h1{text-align: center; font-size: 0.12rem; color: #222; position: absolute; top: 0.14rem; left: 1.5rem; }
+.tx_txt p{width: 1.63rem; font-size: 0.07rem; color: #222; line-height: 0.12rem; position: absolute; top: 0.4rem; left: 1.415rem;}
+.tx_txt2{width: 100%; margin-top: 0.06rem; }
+.tx_txt2 h2{text-align: center; font-size: 0.12rem; color: #222; }
+.tx_txt2 p{width: 3.1rem; margin: auto; font-size: 0.07rem; color: #222; line-height: 0.12rem; margin-top: 0.07rem; }
+.Module2_2{width: 3.15rem;  margin: auto; margin-top: -0.52rem;}
+.Module2_2 ul{margin-bottom: 0.225rem; overflow: hidden;}
+.Module2_2 ul li{width: 1.01rem; float: left; margin-left: 0.06rem; }
+.Module2_2 img{display: block; width: 100%;}
+.Module2_3{width: 3.1rem; margin: auto; display: block; font-size: 0.07rem; line-height: 0.12rem; color: #222; margin-top: 5px; margin-bottom: 0.21rem;}
+
+.Module3{width: 100%; background: #b76949; overflow: hidden;}
+.tit_02{width: 100%; text-align: center; overflow: hidden;}
+.tit_02 p{font-size: 0.12rem; font-weight: bold; color: #fff; line-height: 0.15rem;}
+.Module3 img{ width: 100%; display: block;}
+.Module3_1{width: 3.05rem; margin: auto; margin-top: 0.16rem; overflow: hidden;}
+.Module3_1 ul{width: 100%; overflow: hidden;}
+.Module3_1 ul li{width: 0.975rem; float: left; margin-left: 0.06rem; text-align: center;}
+.Module3_1 ul li p{margin-top: 0.05rem; font-size: 0.093rem; color: #222; font-weight: bold;}
+.butn1{width: 1.26rem; height: 0.275rem; margin:auto; margin-top: 0.21rem; margin-bottom: 0.15rem; line-height: 0.275rem; text-align: center; font-size: 0.12rem; color: #e0007d; background: #f24c19; border-radius: 30px; border: 2px dashed #000; overflow: hidden; }
+.butn1 a{color: #fff; display: block;}
+
+.jt{width: 0.05rem; height: 0.15rem; margin: auto; margin-top: 0.09rem; }
+.jt_txt{text-align: center; line-height: 0.12rem; color: #002222; font-size: 0.07rem; margin-top: 5px;}
+
+.Module4{width: 100%; overflow: hidden;}
+.Module4 img{width: 100%; display: block;}
+.tit_04{ margin-top: 0.15rem; overflow: hidden; position: relative;}
+.tit_04 p{width: 100%; font-size: 0.12rem; color: #222; font-weight: bold; text-align: center; position: absolute; top: 1.28rem;}
+.Module4_1{width: 3.035rem; margin: auto; margin-top: 0.17rem; overflow: hidden; }
+.Module4_1 ul li{width:1.415rem; float: left; margin-left: 0.2rem; overflow: hidden; position: relative; }
+.Module4_1 ul li p{width: 1.28rem; font-size: 0.07rem; color: #fff; line-height: 0.12rem; position: absolute; top:1.7rem; left: 0.045rem;  }
+.m4_sk{width: 100%; height: 1.095rem; background: #fbb805; margin-top: -1.035rem;}
+.Module4_2{margin-top: 0.08rem; position: relative;}
+.Module4_3{position: absolute; top: 1.35rem; }
+.Module4_3 p{ width: 1.465rem; font-size: 0.09rem; margin-left: 0.165rem; font-weight: bold; text-align:center; line-height: 0.15rem;}
+.Module4_2_2{position: relative;}
+.Module4_3_1{position: absolute; top: 0}
+.Module4_3_1 span{width: 3.04rem;  font-size: 0.07rem; color: #222; line-height: 0.12rem; margin-top: 0.85rem; margin-left: 0.08rem; display: block; }
+.Module4_4{width: 100%; position: relative;}
+.Module4_4 p{width: 3.04rem;  font-size: 0.07rem; color: #222; font-weight: bold; line-height: 0.12rem; position: absolute; top: 1.75rem; left: 0.08rem;}
+.Module4_5{width: 100%; position: relative;}
+.Module4_5 p{width: 3.04rem;  font-size: 0.07rem; color: #222; font-weight: bold; line-height: 0.12rem; position: absolute; top: 1.06rem; left: 0.08rem;}
+.butn2{width: 1.26rem; height: 0.275rem; margin:auto; margin-top: 0.105rem; margin-bottom: 0.12rem; line-height: 0.275rem; text-align: center; font-size: 0.12rem; color: #e0007d; background: #f24c19; border-radius: 30px; border: 2px dashed #000; overflow: hidden; }
+.butn2 a{color: #fff; display: block;}
+
+.Module5{width: 100%; overflow: hidden;}
+.Module5 img{width: 100%; display: block;}
+.tit_05{ margin-top: 0.15rem; overflow: hidden; position: relative;}
+.tit_05 p{ font-size: 0.12rem; color: #222; font-weight: bold;  position: absolute; top: 1.28rem; left: 0.82rem; }
+.tit_05 b{ font-size: 0.12rem; color: #222; font-weight: bold;  position: absolute; top: 1.46rem; left: 1.2rem; display: block; }
+
+.anl img{display: block; width: 100%;}
+.butn3{width: 1.26rem; height: 0.275rem; margin:0.165rem auto;  line-height: 0.275rem; text-align: center; font-size: 0.12rem; color: #e0007d; background: #f24c19; border-radius: 30px; border: 2px dashed #000; overflow: hidden; }
+.butn3 a{color: #fff; display: block;}
+
+
+.Module6{width: 100%; background: #f3f3f3; margin-top:0.185rem; padding-bottom: 0.05rem; overflow: hidden;}
+.Module6_1{width: 98%; margin: auto; margin-top: 0.16rem; overflow: hidden;}
+
+.zj_jd{width: 100%; margin: auto; overflow: hidden;}
+.jdxm{width: 100%; height: 0.16rem; text-align: center; background: url(../images/jdxm.jpg) center center;}
+.jdxm span{width: 0.75rem; height: 0.16rem; text-align: center; line-height: 0.16rem; background: #f3f3f3; margin: auto; font-size: 0.15rem; display: block; color: #bb7053; font-weight: bold;}
+.jd_ul1{ width:96%; margin:auto; margin-top:0.155rem; overflow: hidden;}
+.jd_ul1 li{width: 32.7%;  line-height: 0.15rem; font-size: 0.08rem; margin:0 0 0.085rem 0.025rem; font-weight: bold; color: #fff; text-align: center;
+			 -moz-border-radius: 0.075rem; -webkit-border-radius: 0.075rem; border-radius: 0.075rem; background: #7f5545; float: left;}
+.zj_jd a{color: #fff; display: block;}
+
